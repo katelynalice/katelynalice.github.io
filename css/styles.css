@@ -64,7 +64,9 @@ li {
   margin-bottom: 10px;
 }
 
-/*Navigation*/
+/*Pseudo Classes*/
+
+a:link,
 
 a {
  font-family: 'Shadows Into Light', cursive;
@@ -72,12 +74,22 @@ a {
  text-decoration: none; 
 }
 
-a:hover {
+a:visited {
   color: ;
 }
 
-a:visited {
+a:focus {
+  background: ;
+}
 
+a:hover {
+  background: ;
+  color: ;
+  text-transform: ;
+}
+
+a:active {
+  background: ;
 }
 
 /* Quote Style */
