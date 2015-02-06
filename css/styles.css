@@ -107,8 +107,8 @@ section {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 }
 
 #my-website {
@@ -149,10 +149,10 @@ h2, h3, p {
 
 .style-tile .pattern-2 {
   background-image: url("../img/old_texture.jpg");
-  background-size: 50px;
+  background-size: 100px;
 }
 
 .style-tile .pattern-3 {
   background-image: url("../img/dotted_texture.jpg");
-  background-size: 100px;
+  background-size: 150px;
 }
