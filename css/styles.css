@@ -65,14 +65,19 @@ li {
 }
 
 /*Pseudo Classes*/
+nav ul {
+  list-style-type: none;
+  display: inline;
+}
 
 a:link,
 
 a {
  font-family: 'Shadows Into Light', cursive;
+ font-size: 2em;
  color: #388E8E;
- text-decoration: none; 
-}
+ text-decoration: none;
+  }
 
 a:visited {
   color: black;
