@@ -19,7 +19,7 @@ header {
   background-image: url("../img/blue-damask.svg");
   background-position: center;
   height: 300px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 body {
@@ -70,6 +70,12 @@ nav ul {
   display: inline;
 }
 
+nav ul li {
+  line-height: 2em;
+  display: inline;
+  margin: 20px;
+}
+
 a:link,
 
 a {
@@ -80,7 +86,7 @@ a {
   }
 
 a:visited {
-  color: black;
+  color: #BDA0CB;
 }
 
 a:focus {
@@ -88,7 +94,7 @@ a:focus {
 }
 
 a:hover {
-  background: #008080;
+  background: #BDA0CB;
   color: #F2EDDC;
   text-transform: ;
 }
