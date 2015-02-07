@@ -70,12 +70,12 @@ a:link,
 
 a {
  font-family: 'Shadows Into Light', cursive;
- color: #C4C4C4;
+ color: #388E8E;
  text-decoration: none; 
 }
 
 a:visited {
-  color: ;
+  color: black;
 }
 
 a:focus {
@@ -83,8 +83,8 @@ a:focus {
 }
 
 a:hover {
-  background: ;
-  color: ;
+  background: #008080;
+  color: #F2EDDC;
   text-transform: ;
 }
 
