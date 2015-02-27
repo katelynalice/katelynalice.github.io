@@ -54,10 +54,13 @@ h2 {
 }
 
 .boxes {
-	background: #F2EDDC;
 	margin-bottom: 20px;
 	padding: 10px 50px;
 	border-radius: 10px;
+}
+
+.boxes:hover {
+  background: #FFFFFD;
 }
 
 li {
