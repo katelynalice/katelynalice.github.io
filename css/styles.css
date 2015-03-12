@@ -31,9 +31,9 @@ header {
 }
 
 #portfoliohead {
-  background: #388E8E;
-  background-image: none;
-  height: 150px;
+  background-image: url("../img/teal_feathers.png");
+  height: 250px;
+  margin-bottom: 30px;
 }
 
 #port-title {
@@ -103,7 +103,7 @@ nav ul li {
 }
 
 #port-nav ul {
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 a:link,
