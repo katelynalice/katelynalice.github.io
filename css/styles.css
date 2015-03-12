@@ -17,7 +17,7 @@
 
 header {
   background-color: #FFFFFD;
-  background-image: url("../img/blue-damask.svg");
+  background-image: url("../img/teal_feathers.png");
   background-position: center;
   height: 300px;
   margin-bottom: 30px;
@@ -28,6 +28,16 @@ header {
   background-position: center;
   height: 300px;
   margin-bottom: 30px;
+}
+
+#portfoliohead {
+  background: #388E8E;
+  background-image: none;
+  height: 150px;
+}
+
+#port-title {
+  text-align: center;
 }
 
 body {
@@ -80,6 +90,7 @@ li {
 nav ul {
   list-style-type: none;
   display: inline;
+  background: #FFFFFD;
   float: right;
   margin-top: 150px;
 }
@@ -88,7 +99,11 @@ nav ul li {
   line-height: 2em;
   display: inline;
   margin: 20px;
-  background: #FFFFFD;
+  padding-top: 18px;
+}
+
+#port-nav ul {
+  margin-top: 30px;
 }
 
 a:link,
@@ -120,14 +135,156 @@ a:active {
 
 /* Quote Style */
 
-#quote {
+.boxes quote {
   text-align: center;
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 1.75em;
-  background-color: #FFFFFD;
-  max-width: 75%;
-  }
+}
 
+/* Portfolio */
+
+.thumbs li {
+  float: left;
+  list-style: none;
+  margin: 10px;
+}
+
+h3 {
+  clear: left;
+}
+
+.fullsize {
+  position: relative;
+}
+
+.fullsize img {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  opacity: 0;
+}
+
+.fullsize li {
+  list-style: none;
+}
+
+/* Use :nth-child to add borders to 1st, 2nd, 3rd */
+.thumbs li:nth-child(1) {
+  border: 5px solid #BDA0CB;
+}
+
+.thumbs li:nth-child(2) {
+  border: 5px solid #BDA0CB;
+}
+
+.thumbs li:nth-child(3) {
+  border: 5px solid #BDA0CB;
+}
+
+.thumbs li:nth-child(4) {
+  border: 5px solid #BDA0CB;
+}
+
+.thumbs li:nth-child(5) {
+  border: 5px solid #BDA0CB;
+}
+
+.thumbs li:nth-child(6) {
+  border: 5px solid #BDA0CB;
+}
+
+.thumbs li:nth-child(7) {
+  border: 5px solid #BDA0CB;
+}
+
+.thumbs li:nth-child(8) {
+  border: 5px solid #BDA0CB;
+}
+
+.thumbs li:nth-child(9) {
+  border: 5px solid #BDA0CB;
+}
+
+.thumbs li:nth-child(10) {
+  border: 5px solid #BDA0CB;
+}
+
+/* Change Borders of Full Size Images */ 
+#fullsize-1:target {
+  border: 10px solid lightblue;
+  z-index: 1;
+  -webkit-animation: lordvader .5s .25s ease forwards;
+}
+
+#fullsize-2:target {
+  border: 10px solid lightblue;
+  z-index: 1;
+  -webkit-animation: lordvader .5s .25s ease forwards;
+}
+
+#fullsize-3:target {
+  border: 10px solid lightblue;
+  z-index: 1;
+  -webkit-animation: lordvader .5s .25s ease forwards;
+}
+
+#fullsize-4:target {
+  border: 10px solid lightblue;
+  z-index: 1;
+  -webkit-animation: lordvader .5s .25s ease forwards;
+}
+
+#fullsize-5:target {
+  border: 10px solid lightblue;
+  z-index: 1;
+  -webkit-animation: lordvader .5s .25s ease forwards;
+}
+
+#fullsize-6:target {
+  border: 10px solid lightblue;
+  z-index: 1;
+  -webkit-animation: lordvader .5s .25s ease forwards;
+}
+
+#fullsize-7:target {
+  border: 10px solid lightblue;
+  z-index: 1;
+  -webkit-animation: lordvader .5s .25s ease forwards;
+}
+
+#fullsize-8:target {
+  border: 10px solid lightblue;
+  z-index: 1;
+  -webkit-animation: lordvader .5s .25s ease forwards;
+}
+
+#fullsize-9:target {
+  border: 10px solid lightblue;
+  z-index: 1;
+  -webkit-animation: lordvader .5s .25s ease forwards;
+}
+
+#fullsize-10:target {
+  border: 10px solid lightblue;
+  z-index: 1;
+  -webkit-animation: lordvader .5s .25s ease forwards;
+}
+
+/* Keyframes */
+
+@-webkit-keyframes lordvader {
+  0% { 
+    opacity: 0; 
+    transform: rotate(0);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+    
+  100% { 
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
 
 /*Style Tile*/
 
