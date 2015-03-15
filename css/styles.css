@@ -23,23 +23,6 @@ header {
   margin-bottom: 30px;
 }
 
-#biohead {
-  background-image: url("../img/teal_feathers.png");
-  background-position: center;
-  height: 300px;
-  margin-bottom: 30px;
-}
-
-#portfoliohead {
-  background-image: url("../img/teal_feathers.png");
-  height: 250px;
-  margin-bottom: 30px;
-}
-
-#port-title {
-  text-align: center;
-}
-
 body {
   color: #388E8E;
   margin: 0 auto 50px;
@@ -90,7 +73,6 @@ li {
 nav ul {
   list-style-type: none;
   display: inline;
-  background: #FFFFFD;
   float: right;
   margin-top: 150px;
 }
@@ -98,15 +80,11 @@ nav ul {
 nav ul li {
   line-height: 2em;
   display: inline;
+  background: #FFFFFD;
+  border-radius: 10px;
   margin: 20px;
   padding-top: 18px;
 }
-
-#port-nav ul {
-  margin-top: 100px;
-}
-
-a:link,
 
 a {
  font-family: 'Shadows Into Light', cursive;
@@ -126,17 +104,46 @@ a:focus {
 a:hover {
   background: #BDA0CB;
   color: #F2EDDC;
-  text-transform: ;
+  border-radius: 10px;
+  text-transform: uppercase;
 }
 
 a:active {
-  background: ;
-}
+  background:;
+} 
 
 /* Quote Style */
 
-.boxes quote {
+.boxes p {
+  font-family: 'Shadows Into Light', cursive;
   text-align: center;
+  font-size: 2em;
+}
+
+/* Homg Page Gallery*/
+
+figure {
+  background: #fff;
+  border-bottom: 20px solid #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px #C4C4C4;
+  padding: 10PX;
+
+  float: left;
+  height: 200px;
+  margin: 40px;
+  width: 200px;
+
+  postion: relative;
+}
+
+.homeimg {
+  height: 180px;
+  width: 180px;
+  position: center;
+  -webkit-filter: grayscale(100%);
+
+  position: absolute;
 }
 
 /* Portfolio */
@@ -359,7 +366,6 @@ h2, h3, p {
   background-image: url("../img/upfeathers.png");
   background-size: 150px;
 }
-
 
 /****Media Queries****/
 
