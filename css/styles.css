@@ -114,7 +114,7 @@ a:active {
 
 /* Quote Style */
 
-.boxes p {
+.quote p {
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
   font-size: 2em;
@@ -156,6 +156,11 @@ figure {
 
 h3 {
   clear: left;
+}
+
+.gallery {
+  max-width: 960px;
+  margin: auto;
 }
 
 .fullsize {
@@ -326,9 +331,7 @@ section {
 body.style-tile {font-family: 'Open Sans Condensed', sans-serif;
 }
 
-a nav {font-family: 'Shadows Into Light', cursive;
-
-}
+a {font-family: 'Shadows Into Light', cursive;}
 
 /* Set Your Own Margin & Padding */
 h2, h3, p {
@@ -367,6 +370,42 @@ h2, h3, p {
   background-size: 150px;
 }
 
+/* Footer */
+.footer {
+  background: #BDA0CB;
+  margin-top: 550px;
+  text-align: right;
+  padding: 1px 30px 15px;
+}
+
+.footer a {
+ font-family: 'Shadows Into Light', cursive;
+ font-size: 1em;
+ color: #F2EDDC;
+ text-decoration: none;
+  }
+
+.footer a:visited {
+  color: #FFFFFD;
+}
+
+.footer a:focus {
+  background: ;
+}
+
+.footer a:hover {
+  background: #F2EDDC;
+  color: #BDA0CB;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.footer a:active {
+  background:;
+} 
+
+
+
 /****Media Queries****/
 
 /*@media (max-width: 680px) {
@@ -374,4 +413,3 @@ h2, h3, p {
     display: none;
   }*/
   
-}
